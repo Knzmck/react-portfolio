@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import About from "./pages/About/index";
+import Contact from "./pages/Contact/index";
+import Portfolio from "./pages/Portfolio/index";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { useMediaQuery } from 'react-responsive';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+  <Router>  
+      <div>
+        <Route exact path="/" component={ About } />
+        <Route exact path="/contact" component= { Contact } />
+        <Route exact path="/portfolio" component= { Portfolio } />
+      </div>
+</Router>
   );
 }
 
