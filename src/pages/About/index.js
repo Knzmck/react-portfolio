@@ -12,20 +12,18 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div className="card" id="container0">
-                    <div className="card-body">
-                        <div className="row">
-                            <div className="media">
-                                <img src={ProfilePic} alt="picture of Mackenzie." className="profilepic mr-5 mt-5"></img>
-                                <section className="media-body">
-                                    <p className="description">
-                                        <br></br>
-                                        <h3><b>Hello! Allow me to introduce myself...</b></h3>
+                <div id="container0">
+                    <div className="row">
+                        <div className="media">
+                            <img src={ProfilePic} alt="picture of Mackenzie." className="profilepic mr-5 mt-5"></img>
+                            <section className="media-body">
+                                <p className="description">
+                                    <br></br>
+                                    <h3><b>Hello! Allow me to introduce myself...</b></h3>
                         My name is Mackenzie Schutz. I am a Registered Nurse, Marketing Consultant & Full Stack Web Developer [in training] from the
                         Kansas City area.
                                     </p>
-                                </section>
-                            </div>
+                            </section>
                         </div>
                     </div>
                 </div>
