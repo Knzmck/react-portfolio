@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ProfilePic from './croppedprofpic.jpg'
 import Resume from './updatedresume2020.pdf'
-import Header from "../../components/Header";
 
 class About extends Component {
 
@@ -13,7 +12,6 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Header />
                 <div className="card" id="container0">
                     <div className="card-body">
                         <div className="row">
