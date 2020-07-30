@@ -5,8 +5,8 @@ class Footer extends Component {
         return (
             <footer>
                 <nav class="footernav">
-                    <button id="linkedin" type="button" class="btn btn-li"><i class="fa fa-linkedin-square"></i></button>
-                    <button id="github" type="button" class="btn btn-li"><i class="fa fa-github-square"></i></button>
+                    <button id="linkedin" type="button" className="btn btn-li"><i class="fa fa-linkedin-square" onClick={ ()=> window.open("https://linkedin.com/in/mackenzie-schutz")}></i></button>
+                    <button id="github" type="button" className="btn btn-li"><i class="fa fa-github-square" onClick={ ()=> window.open("https://github.com/Knzmck")}></i></button>
                 </nav>
             </footer>
         );
