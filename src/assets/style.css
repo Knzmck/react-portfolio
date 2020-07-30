@@ -61,12 +61,6 @@ li {
     padding-right: 50px;
 }
 
-.carouselslide {
-    padding: 30px;
-    margin-top: 30px;
-
-}
-
 .row {
     padding-top: 5px;
 }
@@ -102,66 +96,6 @@ footer {
 .footernav {
     background-color: white;
 }
-
-
-/* css for button icons on project page */
-.container {
-    position: relative;
-    width: 75%;
-  }
-  
-  /* Make the image responsive */
-  .container img {
-    width: 100%;
-  }
-
-  .project-icon {
-      height: 150px;
-      width: 100px;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .container .btn1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color:rgba(128, 128, 128, 0.644);
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 150px;
-  }
-  .container .btn:hover {
-    background-color: grey;
-  }
  .main-header {
     color:#116c91;
 }
-/*Extra small devices (smartphones, <600px)*/  
-
-@media only screen and (max-width: 600px) {…}  
-
-
-/*Small devices (large smartphones and portrait tablets >= 600px)*/  
-
-@media only screen and (min-width: 600px) {…}  
-
-
-/*Medium devices (landscape tablets >= 768px)*/  
-
-@media only screen and (min-width: 768px) {…}  
-
-
-/*Large devices (laptops and desktops, >=600px)*/  
-
-@media only screen and (min-width: 992px) {…} 
-
-
-/*Extra Large devices (laptops and desktops <600px)*/  
-
-@media only screen and (min-width: 1200px) {…}
