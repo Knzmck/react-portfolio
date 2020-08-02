@@ -1,100 +1,43 @@
-h1, h2{
-    text-align: center;
+#container0,
+#container1,
+#container2 {
+  background-color: #e7717d;
 }
-h1, h2, h4 {
-    font-family: 'Noto Sans JP', sans-serif;
-    padding: 5px;
-}
-
-#container0, #container1, #container2 {
-    background-color: lavender;
-}
-
-.main-header, header {
-    font-size: xx-large;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.portfolioheader, .contact-header{
-    font-family: 'Noto Sans JP', sans-serif;
-    padding-bottom: 20px;
-} 
-    
+.portfolioheader,
 .contact-header {
-    text-align: center;
-    padding: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-bottom: 20px;
 }
-
+.contact-header {
+  text-align: center;
+  padding: 20px;
+}
 nav {
-    font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #0b3453;
 }
-
-.navbar-brand {
-background-color: darkgrey;
+.navbar {
+  background-color: #7a9fbb;
 }
-
-li {
-    display: inline-block;
-    margin-top: 25px;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
-    text-align: center;
-    padding: 5px;
-}
-
-.profilepic {
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mb-4 {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 .row {
-    padding-top: 5px;
+  padding-top: 5px;
 }
-
-.description {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 5px;
-    font-family: 'Noto Sans JP', sans-serif;
-    text-align: center;
-    font-size: x-large;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-.footernav {
-    background-color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
- .main-header {
-    color:#116c91;
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.footernav {
+  background-color: white;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }

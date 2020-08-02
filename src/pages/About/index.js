@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProfilePic from './croppedprofpic.jpg'
 import Resume from './updatedresume2020.pdf'
+import "./style.css";
 
 class About extends Component {
 

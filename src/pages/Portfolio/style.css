@@ -1,0 +1,23 @@
+.cardss{
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    width: 100%;
+}
+.project-icon {
+    height: 250px;
+    width: 250px;
+}
+.project-card {
+    background-color:  #6189b68c;
+}
+
+#container0,
+#container1,
+#container2 {
+  background-color: #35242144;
+}
+.link {
+    color: black;
+}

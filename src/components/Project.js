@@ -3,24 +3,20 @@ import { Link } from 'react-router-dom'
 
 function Project(props) {
     return (
-        // <div className="card">
-        //     <img src={ProfilePic} alt="picture of Mackenzie." className="profilepic mr-5 mt-5"></img>
-        //     <button className="btn btn1" id="weather-btn">Weather Dashboard App</button>
-        //     <button className="btn btn2" id="weather-repo"> Repository </button>
-        // </div>
-        <ul>
-            {props.projects.map(item => (
-                <li className="row" key={item.id}>
-                    {item.title}
-                    <img className="project-icon" src= {item.picture}></img>
-                    <Link className="col" to={item.repo}> Repo</Link>
-                    <Link className="col" to={item.repo}> App</Link>
-                </li>
-                // <li key={item.id}> 
-                // {item.title}
-                //  </li>
-            ))}
-        </ul>
+        <div className="cardss">
+            <ul>
+                {props.projects.map(item => (
+                    <li class="card project-card">
+                        <div className="card-body" key={item.id}>
+                           <h2>  {item.title} </h2>
+                            <img className="project-icon" src={item.picture}></img>
+                            <Link className="col link" to={item.repo}> <h3> Repo </h3></Link>
+                            <Link className="col link" to={item.repo}><h3> App </h3></Link>
+                        </div>
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
 }
 

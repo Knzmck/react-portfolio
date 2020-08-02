@@ -1,0 +1,34 @@
+h1, h2 {
+  text-align: center;
+}
+h1, h2, h4 {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 5px;
+}
+.main-header, header {
+  font-size: xx-large;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-header {
+    color: #116c91;
+  }
+.profilepic {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    font-size: x-large;
+  }
