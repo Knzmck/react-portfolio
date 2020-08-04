@@ -10,8 +10,8 @@ function Project(props) {
                         <div className="card-body" key={item.id}>
                            <h2>  {item.title} </h2>
                             <img className="project-icon" src={item.picture}></img>
-                            <Link className="col link" to={item.repo}> <h3> Repo </h3></Link>
-                            <Link className="col link" to={item.repo}><h3> App </h3></Link>
+                            <Link className="col link" to={item.repo}> Repo </Link>
+                            <Link className="col link" to={item.repo}> App </Link>
                         </div>
                     </li>
                 ))}
