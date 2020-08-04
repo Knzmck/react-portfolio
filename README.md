@@ -8,7 +8,7 @@
 - [Questions](#Questions)  
 
 
-  ## About
+## About
 
   The goal of this project is to create an interactive portfolio to showcase my work in web development.  
 
