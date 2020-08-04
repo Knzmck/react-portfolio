@@ -15,7 +15,7 @@
 
 ## Demo     
 
-[Demo](https://knzmck.github.io/portfolio-project/) 
+[View Demo](https://react-portfolio-ms.herokuapp.com/) 
 
 
 ## Developer  
