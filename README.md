@@ -4,10 +4,18 @@
 
 - [About](#about)
 - [Developer](#developer)
-- [Questions](#Questions)
+- [Demo](#Demo)   
+- [Questions](#Questions)  
+
 
   ## About
 
+  The goal of this project is to create an interactive portfolio to showcase my work in web development.  
+
+
+## Demo     
+
+[Demo](https://knzmck.github.io/portfolio-project/) 
 
 
 ## Developer  
@@ -17,4 +25,7 @@
 
 ## Questions
 
-Please direct all questions the developer  
+Please direct all questions the developer   
+
+[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)    
+
