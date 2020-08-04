@@ -1,13 +1,16 @@
-.cardss{
+.cards{
     display: flex;
     flex-wrap: wrap;
+}
+.card {
+
 }
 li {
     width: 100%;
 }
 .project-icon {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
 }
 .project-card {
     background-color:  #6189b68c;
@@ -18,6 +21,10 @@ li {
 #container2 {
   background-color: #35242144;
 }
-.link {
+.project-btn{
+    justify-content: center;
+  }
+a {
     color: black;
+    font-size: x-large;
 }

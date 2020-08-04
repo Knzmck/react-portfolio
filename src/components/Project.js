@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom'
 
 function Project(props) {
     return (
-        <div className="cardss">
-            <ul>
+        <div className="container cards">
                 {props.projects.map(item => (
-                    <li class="card project-card">
+                    <li class="card project-card col-lg-4 col-md-6 col-sm-12 m-4">
                         <div className="card-body" key={item.id}>
-                           <h2>  {item.title} </h2>
+                            <h2>  {item.title} </h2>
                             <img className="project-icon" src={item.picture}></img>
-                            <Link className="col link" to={item.repo}> Repo </Link>
-                            <Link className="col link" to={item.repo}> App </Link>
+                            <div className="row project-btn">
+                                <button className="btn"><a  target="_blank" href={item.repo}>Repo</a>  </button>
+                                <button className="btn"><a target="_blank" href={item.app}>App</a> </button>
+                            </div>
                         </div>
                     </li>
                 ))}
-            </ul>
         </div>
     );
 }
