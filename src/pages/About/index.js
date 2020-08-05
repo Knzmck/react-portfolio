@@ -20,7 +20,7 @@ class About extends Component {
                             <section className="media-body">
                                 <p className="description">
                                     <br></br>
-                                    <h3><b>Hello! Allow me to introduce myself...</b></h3>
+                                    <h3>Hello! Allow me to introduce myself...</h3>
                         My name is Mackenzie Schutz. I am a Registered Nurse, Marketing Consultant & Full Stack Web Developer [in training] from the
                         Kansas City area.
                                     </p>
