@@ -10,7 +10,8 @@ li {
     width: 150px;
 }
 .project-card {
-    background-color: #1f111ac4;
+    /* background-color: #1f111ac4; */
+    background-color: #946f6dbd;;
 }
 .project-btn{
     justify-content: center;
