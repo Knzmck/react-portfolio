@@ -10,8 +10,8 @@ function Project(props) {
                             <h2>  {item.title} </h2>
                             <img className="project-icon" src={item.picture}></img>
                             <div className="row project-btn">
-                                <button className="btn"><a  target="_blank" href={item.repo}>Repo</a>  </button>
-                                <button className="btn"><a target="_blank" href={item.app}>App</a> </button>
+                                <button className="btn"><a className="projecta" target="_blank" href={item.repo}>Repo</a>  </button>
+                                <button className="btn"><a className="projecta" target="_blank" href={item.app}>App</a> </button>
                             </div>
                         </div>
                     </li>

@@ -45,7 +45,7 @@ class ContactForm extends Component {
                     </div>
                 </div>
                 <div class="text-center text-md-left">
-                    <a class="btn btn-info" type="submit" value="send" onClick={this.sendEmail}>Send</a>
+                    <a class="btn btn-light" type="submit" value="send" onClick={this.sendEmail}>Send</a>
                 </div>
             </form>
         );

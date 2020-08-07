@@ -1,83 +1,28 @@
-h1, h2{
+h1,
+h2 {
   text-align: center;
+  color: rgb(240, 240, 240);
 }
-h1, h2, h4 {
-  font-family: 'Noto Sans JP', sans-serif;
+h1,
+h2,
+h4 {
+  font-family: "Noto Sans JP", sans-serif;
   padding: 5px;
+  color: rgb(240, 240, 240);
 }
-
-#container0, #container1, #container2 {
-  background-color: lavender;
-}
-
-.main-header, header {
-  font-size: xx-large;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.portfolioheader, .contact-header{
-  font-family: 'Noto Sans JP', sans-serif;
-  padding-bottom: 20px;
-} 
-  
 .contact-header {
   text-align: center;
   padding: 20px;
 }
-
-nav {
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
-.navbar-brand {
-background-color: darkgrey;
-}
-
-li {
-  display: inline-block;
-  margin-top: 25px;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: large;
-  text-align: center;
-  padding: 5px;
-}
-
 .profilepic {
-  height: 150px;
-  width: 150px;
   border-radius: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-.mb-4 {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
 .row {
   padding-top: 5px;
 }
-
-.description {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 5px;
-  font-family: 'Noto Sans JP', sans-serif;
-  text-align: center;
-  font-size: x-large;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-}
-
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -86,53 +31,45 @@ footer {
   text-align: center;
   text-decoration: none;
 }
-
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-.footernav {
-  background-color: white;
+footer {
+  display: flex;
+  justify-content: center;
 }
-
-
 /* css for button icons on project page */
 .container {
   position: relative;
   width: 75%;
 }
-
-/* Make the image responsive */
-.container img {
-  width: 100%;
-}
-
 .project-icon {
-    height: 150px;
-    width: 100px;
-}
-
-/* Style the button and place it in the middle of the container/image */
-.container .btn1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color:rgba(128, 128, 128, 0.644);
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 150px;
-}
-.container .btn:hover {
-  background-color: grey;
+  height: 75px;
+  width: 75px;
 }
 .main-header {
-  color:#116c91;
+  color:black;
 }
-
+.headerbackground {
+  background-color: #46030D;
+}
+.footer {
+  /* background-image: url(./assets/fallpic.jpg); */
+  background-color: whitesmoke;
+  background-size: contain;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px!important;
+}
+/* .stuff {
+  min-height: 70vh;
+} */
+body{
+    background-image: url(./assets/hotel-wallpaper-black.png);
+    /* opacity: 25%; */
+}
+.contactpg {
+  background-color:rgba(245, 245, 245, 0.623);
+}

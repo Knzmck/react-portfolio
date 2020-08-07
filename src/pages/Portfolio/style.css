@@ -2,9 +2,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-.card {
-
-}
 li {
     width: 100%;
 }
@@ -13,13 +10,7 @@ li {
     width: 150px;
 }
 .project-card {
-    background-color:  #6189b68c;
-}
-
-#container0,
-#container1,
-#container2 {
-  background-color: #35242144;
+    background-color:  #4573a88c;
 }
 .project-btn{
     justify-content: center;
@@ -28,3 +19,17 @@ a {
     color: black;
     font-size: x-large;
 }
+li {
+    display: inline-block;
+    margin-top: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+  }
+  .portfolio-header {
+    margin-left: 35%;
+  }
+  .projecta {
+      color: whitesmoke;
+  }

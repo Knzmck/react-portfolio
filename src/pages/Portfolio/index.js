@@ -55,16 +55,17 @@ const portfolioInfo = [
 ]
 
 class Portfolio extends Component {
-    
+
     render() {
         return (
-            <div>
-                <main className="card container1" id="container1">
-                    <div className="row">
-                        <Project projects={portfolioInfo} />
-                    </div>
-                </main>
-            </div>
+            <main>
+                <div className="row">
+                    <h2 className="portfolio-header"> Portfolio </h2>
+                </div>
+                <div className="row">
+                    <Project projects={portfolioInfo} />
+                </div>
+            </main>
         );
     }
 }
