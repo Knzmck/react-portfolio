@@ -52,11 +52,10 @@ footer {
   color:black;
 }
 .headerbackground {
-  background-color: #46030D;
+  background-color: #946f6dbd;
 }
 .footer {
-  /* background-image: url(./assets/fallpic.jpg); */
-  background-color: whitesmoke;
+  background-color:#5c3428;
   background-size: contain;
   position: fixed;
   bottom: 0;
@@ -71,5 +70,6 @@ body{
     /* opacity: 25%; */
 }
 .contactpg {
-  background-color:rgba(245, 245, 245, 0.623);
+  margin: 10%;
+  background-color:#94523f;
 }

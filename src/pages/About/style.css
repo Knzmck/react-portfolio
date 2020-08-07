@@ -31,11 +31,11 @@ h1, h2, h4 {
     font-family: "Noto Sans JP", sans-serif;
     text-align: center;
     font-size: x-large;
-    color: #500d37c4;
-    background-color: black;
+    color:#94523f;
+    background-color: rgba(0, 0, 0, 0.74);
     border-radius: 10%;
   }
   #resume-btn {
-  background-color: #500d37c4;
+  background-color: #94523f;
   color: whitesmoke;
   }
