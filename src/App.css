@@ -57,10 +57,10 @@ footer {
 .footer {
   background-color:#5c3428;
   background-size: contain;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
-  margin-top: 50px!important;
+  margin-top: 12%!important;
 }
 /* .stuff {
   min-height: 70vh;
