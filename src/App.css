@@ -1,14 +1,14 @@
 h1,
 h2 {
   text-align: center;
-  color: rgb(240, 240, 240);
+  color: rgb(0, 0, 0);
 }
 h1,
 h2,
 h4 {
   font-family: "Noto Sans JP", sans-serif;
   padding: 5px;
-  color: rgb(240, 240, 240);
+  color: rgb(0, 0, 0);
 }
 .contact-header {
   text-align: center;
@@ -53,10 +53,10 @@ footer {
   color:black;
 }
 .headerbackground {
-  background-color: #946f6dbd;
+  background-color: #ffffffbd;
 }
 .footer {
-  background-color: black;
+  background-color: rgb(0, 41, 112);
   background-size: contain;
   position: relative;
   bottom: 0;
@@ -67,10 +67,10 @@ footer {
   min-height: 70vh;
 } */
 body{
-    background-image: url(./assets/hotel-wallpaper-black.png);
+    background-image: url(./assets/bush.png);
     /* opacity: 25%; */
 }
 .contactpg {
   margin: 10%;
-  background-color:#94523f;
+  background-color:#8697f8;
 }

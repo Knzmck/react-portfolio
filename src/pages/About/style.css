@@ -14,7 +14,7 @@ h1, h2, h4 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .main-header {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
   }
 .profilepic {
     height: 150px;
@@ -31,8 +31,8 @@ h1, h2, h4 {
     font-family: "Noto Sans JP", sans-serif;
     text-align: center;
     font-size: x-large;
-    color:#94523f;
-    background-color: rgba(0, 0, 0, 0.74);
+    color:#000000;
+    background-color: rgba(255, 255, 255, 0.74);
     border-radius: 10%;
     margin-top: 5%;
   }
