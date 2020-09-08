@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Project from "../../components/Project";
+import Project from "../Portfolio/components/Project";
 import WeatherPic from "../../assets/weather.jpg";
 import drinks from "../../assets/tulips-drink-and-books.jpg";
 import burger from "../../assets/burger.jpg";
 import note from "../../assets/note.jpg";
 import directory from "../../assets/employeedir.PNG";
 import fitness from "../../assets/dashboard.PNG";
-
+import jobspot from "../../assets/jobSpotScreenShot.png"
 import "./style.css";
 
 const portfolioInfo = [
@@ -19,10 +19,10 @@ const portfolioInfo = [
     },
     {
         id: 2,
-        title: "Cocktail Finder",
-        picture: drinks,
-        repo: "https://github.com/Knzmck/Drinking-At-Home.git",
-        app: "https://knzmck.github.io/Drinking-At-Home/"
+        title: "JobSpot",
+        picture: jobspot,
+        repo: "https://github.com/Anverch/JobSpot.git",
+        app: "https://job-spot.herokuapp.com/"
     },
     {
         id: 3,
@@ -52,15 +52,22 @@ const portfolioInfo = [
         repo: "https://github.com/Knzmck/fitness-app.git",
         app: "https://workin-out.herokuapp.com/"
     },
+    {
+        id: 7,
+        title: "Cocktail Finder",
+        picture: drinks,
+        repo: "https://github.com/Knzmck/Drinking-At-Home.git",
+        app: "https://knzmck.github.io/Drinking-At-Home/"
+    },
 ]
 
 class Portfolio extends Component {
 
     render() {
         return (
-            <main>
+            <main className="portfolio-container">
                 <div className="row">
-                    <h2 className="portfolio-header"> Portfolio </h2>
+                    <h2 className="portfolio-header mt-4"> Portfolio </h2>
                 </div>
                 <div className="row">
                     <Project projects={portfolioInfo} />

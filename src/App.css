@@ -1,53 +1,8 @@
-h1,
-h2 {
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-h1,
-h2,
-h4 {
-  font-family: "Noto Sans JP", sans-serif;
-  padding: 5px;
-  color: rgb(0, 0, 0);
-}
-.contact-header {
-  text-align: center;
-  padding: 20px;
-}
 .profilepic {
+  height: 150px;
+  width: 150px;
   border-radius: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.row {
-  padding-top: 5px;
-}
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 80px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-}
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-footer {
-  display: flex;
-  justify-content: center;
-}
-/* css for button icons on project page */
-.container {
-  position: relative;
-  width: 75%;
-}
-.project-icon {
-  height: 75px;
-  width: 75px;
 }
 .main-header {
   color:black;
@@ -55,22 +10,41 @@ footer {
 .headerbackground {
   background-color: #ffffffbd;
 }
-.footer {
-  background-color: rgb(0, 41, 112);
-  background-size: contain;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  margin-top: 12%!important;
-}
-/* .stuff {
-  min-height: 70vh;
-} */
 body{
     background-image: url(./assets/bush.png);
-    /* opacity: 25%; */
 }
-.contactpg {
-  margin: 10%;
-  background-color:#8697f8;
+.description {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: x-large;
+  color:#000000;
+  background-color: rgba(255, 255, 255, 0.74);
+  border-radius: 10%;
+  margin-top: 5%;
+}
+#resume-btn {
+  background-color: #814737;
+  color: whitesmoke;
+  }
+.navstyle {
+  justify-content: center;
+}
+.nav-name {
+  font-family: 'Calligraffitti', cursive;
+}
+.nav-text {
+  font-family: 'Calligraffitti', cursive;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  font-size: x-large;
+}
+.navbtn:hover {
+    opacity: 0.7;
+    background-color: lightblue;
+}
+.navbtn {
+  border: 5px;
 }

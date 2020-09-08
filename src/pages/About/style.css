@@ -13,30 +13,3 @@ h1, h2, h4 {
   padding-bottom: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.main-header {
-    color: rgb(0, 0, 0);
-  }
-.profilepic {
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-.description {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 5px;
-    font-family: "Noto Sans JP", sans-serif;
-    text-align: center;
-    font-size: x-large;
-    color:#000000;
-    background-color: rgba(255, 255, 255, 0.74);
-    border-radius: 10%;
-    margin-top: 5%;
-  }
-  #resume-btn {
-  background-color: #94523f;
-  color: whitesmoke;
-  }

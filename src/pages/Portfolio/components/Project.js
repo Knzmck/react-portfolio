@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import React from 'react';
 
 function Project(props) {
     return (
         <div className="container cards">
                 {props.projects.map(item => (
-                    <li class="card project-card col-lg-4 col-md-6 col-sm-12 m-4">
+                    <li className="card project-card col-lg-4 col-md-6 col-sm-12 m-4">
                         <div className="card-body" key={item.id}>
-                            <h2>  {item.title} </h2>
+                            <h2 className="project-title">  {item.title} </h2>
                             <img className="project-icon" src={item.picture}></img>
                             <div className="row project-btn">
                                 <button className="btn"><a className="projecta" target="_blank" href={item.repo}>Repo</a>  </button>

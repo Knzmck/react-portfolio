@@ -1,21 +1,37 @@
 import React, { Component } from 'react';
-import ContactInfo from '../../components/ContactInfo';
-import ContactForm from '../../components/ContactForm';
+import Icon from './components/Icon';
+import ContactInfo from './components/ContactInfo';
+import "./style.css";
+
+const iconInfo = [
+    {
+        id: 1,
+        name: "Github",
+        buttonId: "github",
+        iClassName: "fa fa-github-square",
+        link: "https://github.com/Knzmck"
+    },
+    {
+        id: 2,
+        name: "LinkedIn",
+        buttonId: "linkedin",
+        iClassName: "fa fa-linkedin-square",
+        link: "https://linkedin.com/in/mackenzie-schutz"
+    }
+]
 
 class Contact extends Component {
 
     render() {
         return (
-            <main className="card contactpg">
-                <div className="card-body">
-                    <div className="mb-4" id="container2">                       
-                            <h2 className="contact-header">Contact me</h2>
-                            <div className="row contactpgrow">
-                                <div className="col-md-9 mb-md-0 mb-5">
-                                    <ContactForm />
-                                </div>
-                                <ContactInfo />
-                            </div>
+            <main className="contactpg container card">
+                <div className="contactpg card-body">
+                    <h2 className="contact-header">Contact me</h2>
+                    <div className="row no-gutters">
+                        <ContactInfo />
+                        <div className="col-6 col-md-4">
+                            <Icon icons={iconInfo} />
+                        </div>
                     </div>
                 </div>
             </main>

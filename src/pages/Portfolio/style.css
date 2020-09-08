@@ -1,36 +1,42 @@
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-}
-li {
-    width: 100%;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .project-icon {
-    height: 150px;
-    width: 150px;
+  height: 150px;
+  width: 150px;
+}
+.project-btn {
+  justify-content: center;
 }
 .project-card {
-    /* background-color: #1f111ac4; */
-    background-color: #946f6dbd;;
+  display: inline-block;
+  margin-top: 25px;
+  font-size: large;
+  text-align: center;
+  padding: 5px;
+  background-color: #946f6dbd;
+  border-radius: 20%;
+  font-family: 'Calligraffitti', cursive;
+  font-family: 'PT Sans', sans-serif;
 }
-.project-btn{
+.projecta {
+  color: whitesmoke;
+  font-size: x-large;
+}
+.portfolio-container{
+    display: flex;
+    align-items: center;
     justify-content: center;
-  }
-a {
-    color: black;
-    font-size: x-large;
+    flex-direction: column;
 }
-li {
-    display: inline-block;
-    margin-top: 25px;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
-    text-align: center;
-    padding: 5px;
-  }
-  .portfolio-header {
-    margin-left: 35%;
-  }
-  .projecta {
-      color: whitesmoke;
-  }
+.portfolio-header {
+  font-family: 'Calligraffitti', cursive;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 50px;
+}
+.project-title {
+  font-family: 'Calligraffitti', cursive;
+  font-family: 'PT Sans', sans-serif;
+}

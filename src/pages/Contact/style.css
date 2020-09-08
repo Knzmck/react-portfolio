@@ -1,0 +1,39 @@
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 75px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .contactpg {
+    margin: 4%;
+    background-color: #946f6dbd;
+    height: 75%;
+    border-radius: 2%;
+  }
+  .contact-header {
+    text-align: center;
+    padding: 20px;
+  }
+  .contact-card {
+    opacity: 60%;
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactpic {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-left: 15px;
+  }
+  .contact-info{
+    justify-content: center;
+  }
