@@ -12,6 +12,7 @@ function Project(props) {
                                 <button className="btn"><a className="projecta" target="_blank" href={item.repo}>Repo</a>  </button>
                                 <button className="btn"><a className="projecta" target="_blank" href={item.app}>App</a> </button>
                             </div>
+                            <div className="project-desc">{item.description}</div>
                         </div>
                     </li>
                 ))}

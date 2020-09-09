@@ -10,11 +10,11 @@ function App() {
   return (
     <Router>
       <Header />
-        <div class="background">
-          <Route exact path="/" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/portfolio" component={Portfolio} />
-        </div>
+      <div class="background">
+        <Route exact path="/" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/portfolio" component={Portfolio} />
+      </div>
     </Router>
   );
 }

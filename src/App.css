@@ -1,34 +1,9 @@
-.profilepic {
-  height: 150px;
-  width: 150px;
-  border-radius: 100%;
-  display: block;
-}
-.main-header {
-  color:black;
-}
 .headerbackground {
   background-color: #ffffffbd;
 }
 body{
     background-image: url(./assets/bush.png);
 }
-.description {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 5px;
-  font-family: "Noto Sans JP", sans-serif;
-  text-align: center;
-  font-size: x-large;
-  color:#000000;
-  background-color: rgba(255, 255, 255, 0.74);
-  border-radius: 10%;
-  margin-top: 5%;
-}
-#resume-btn {
-  background-color: #814737;
-  color: whitesmoke;
-  }
 .navstyle {
   justify-content: center;
 }

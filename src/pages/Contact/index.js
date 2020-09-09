@@ -26,7 +26,7 @@ class Contact extends Component {
         return (
             <main className="contactpg container card">
                 <div className="contactpg card-body">
-                    <h2 className="contact-header">Contact me</h2>
+                    <h2 className="contact-header">Let's chat!</h2>
                     <div className="row no-gutters">
                         <ContactInfo />
                         <div className="col-6 col-md-4">

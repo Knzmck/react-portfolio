@@ -13,20 +13,15 @@ class About extends Component {
     render() {
         return (
             <div className="container">
-                    <div className="row">
-                        <div className="media">
-                            <img src={ProfilePic} alt="picture of Mackenzie." className="profilepic mr-5 mt-5"></img>
-                            <section className="media-body">
-                                <p className="description">
-                                    <br></br>
-                                    <h3>Hello!</h3>
-                        My name is Mackenzie Schutz. I am a Registered Nurse, Marketing Consultant & Full Stack Web Developer [in training] from the
-                        Kansas City area.
-                                    </p>
-                            </section>
-                        </div>
-                    </div>
-                <button className="btn" id="resume-btn" onClick={this.handleClick}>See My Full Resume Here</button>
+                <div className="row">
+                    <img src={ProfilePic} alt="picture of Mackenzie." className="profilepic mr-5 mt-5"></img>
+                    <card className="card col-md-6 mt-5 desc-card">
+                        <h2>Welcome to my page!</h2>
+                        <text className="desc-text"> I am a Full Stack Web Developer & Registered Nurse from the Kansas City area seeking web development opportunities and projects.  </text>
+                        <button className="btn mt-4" id="resume-btn" onClick={this.handleClick}>See My Full Resume Here</button>
+                    </card>
+                </div>
+
             </div>
         );
     }
