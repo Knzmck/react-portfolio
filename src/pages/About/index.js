@@ -18,7 +18,7 @@ class About extends Component {
                     <card className="card col-md-6 mt-5 desc-card">
                         <h2>Welcome to my page!</h2>
                         <text className="desc-text"> I am a Full Stack Web Developer & Registered Nurse from the Kansas City area seeking web development opportunities and projects.  </text>
-                        <button className="btn mt-4" id="resume-btn" onClick={this.handleClick}>See My Full Resume Here</button>
+                        <button className="btn mt-4" id="resume-btn" onClick={this.handleClick}>See My Full Resume</button>
                     </card>
                 </div>
 

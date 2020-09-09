@@ -13,7 +13,7 @@ import "./style.css";
 const portfolioInfo = [
     {
         id: 1,
-        title: "React Employee Directory",
+        title: "Employee Directory",
         picture: directory,
         repo: "https://github.com/Knzmck/employee-directory.git",
         app: "https://employee-directory-of-wonder.herokuapp.com/",
@@ -34,17 +34,9 @@ const portfolioInfo = [
         repo: "https://github.com/Knzmck/Drinking-At-Home.git",
         app: "https://knzmck.github.io/Drinking-At-Home/",
         description: "A front end application which uses an API to generate cocktail recipes based on keyword searches and relevant categories."
-    },
+    },    
     {
         id: 4,
-        title: "Classic Note-Taker",
-        picture: note,
-        repo: "https://github.com/Knzmck/note-taker.git",
-        app: "https://radiant-dusk-28475.herokuapp.com/",
-        description: "A front end application for taking notes and keeping your thoughts organized."
-    },
-    {
-        id: 6,
         title: "Fitness Tracker",
         picture: fitness,
         repo: "https://github.com/Knzmck/fitness-app.git",
@@ -52,7 +44,16 @@ const portfolioInfo = [
         description: "A full stack application (Mongo, Express, React & Node) where users can keep track of their workouts and fitness routines."
     },
     {
-        id: 7,
+        id: 5,
+        title: "Classic Note-Taker",
+        picture: note,
+        repo: "https://github.com/Knzmck/note-taker.git",
+        app: "https://radiant-dusk-28475.herokuapp.com/",
+        description: "A front end application for taking notes and keeping your thoughts organized."
+    },
+
+    {
+        id: 6,
         title: "Eat-da-Burger",
         picture: burger,
         repo: "https://github.com/Knzmck/burger.git",
@@ -60,7 +61,7 @@ const portfolioInfo = [
         description: "A full stack application (MySQL, Express, Handlebars, Node & homemade ORM) where users can create & devour 'burgers'."
     },
     {
-        id: 8,
+        id: 7,
         title: "Weather Forecaster",
         picture: WeatherPic,
         repo: "https://github.com/Knzmck/weather-dashboard.git",
@@ -68,7 +69,7 @@ const portfolioInfo = [
         description: "Front end application using an APIs to render weather forecasts for any city in the world."
     },
     {
-        id: 9,
+        id: 8,
         title: "Employee Information Generator",
         picture: eInfo,
         repo: "https://github.com/Knzmck/employee-summary.git",
