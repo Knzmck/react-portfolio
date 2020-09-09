@@ -21,7 +21,7 @@
     font-size:xx-large;
   }
   .contact-card {
-    opacity: 90%;
+    background-color:  #fff9f9bd;
   }
   .social{
     display: flex;
