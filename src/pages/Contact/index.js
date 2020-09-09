@@ -26,7 +26,7 @@ class Contact extends Component {
     render() {
         return (
             <main className="contactpg container card">
-                <div className="contactpg card-body">
+                <div className="card-body">
                     <h2 className="contact-header">Let's connect!</h2>
                     <div className="row no-gutters">
                         <div className="col-12 col-sm-6 col-md-8 mb-4 card contact-card">
